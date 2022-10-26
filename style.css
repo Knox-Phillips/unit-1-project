@@ -17,4 +17,32 @@ iframe {
 #card:hover {
       transform: scale(1.1);
 }
+#features {
+    animation: features 3s ease 0s 1 normal forwards;
+}
 
+@keyframes features {
+	0% {
+		opacity: 0;
+		transform: translateX(-250px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
+header {
+    animation: head 1s ease 0s 1 normal forwards;
+} 
+
+@keyframes head {
+	0% {
+		transform: scale(0);
+	}
+
+	100% {
+		transform: scale(1);
+	}
+}
