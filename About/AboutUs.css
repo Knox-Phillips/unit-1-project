@@ -73,3 +73,35 @@ body{
 #linkedin{
     text-decoration: none !important;
 }
+
+.leftpicdiv {
+    animation: leftpicdiv 1s ease 0s  normal none;
+}
+
+@keyframes leftpicdiv {
+	0% {
+		opacity: 0;
+		transform: translateX(-250px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
+.rightpicdiv {
+    animation: rightpicdiv 1s ease 0s  normal none;
+}
+
+@keyframes rightpicdiv {
+	0% {
+		opacity: 0;
+		transform: translateX(250px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
