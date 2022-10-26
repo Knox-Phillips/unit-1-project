@@ -14,5 +14,62 @@ h1{
 
 .aboutbox{
     display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-columns: .5fr 1.5fr .5fr;
+}
+figcaption{
+    height: 100%
+}
+.rightpic{
+    height:100%;
+    width:100%;
+}
+.leftpic{
+    height:100%;
+    width:100%;
+}
+.bottompics{
+    display:flex;
+    justify-content:space-around;
+    width:100%;
+    height:50%;
+}
+.humanpic{
+    display:flex;
+    align-content:center;
+    height:50%;
+    width:50%;
+    border-radius:60%;
+    margin:auto;
+}
+.column1{
+    width:33%;
+    text-decoration: none;
+    color:black
+}
+.column1:hover{
+    transform: scale(1.1);
+}
+.column2{
+    width:33%;
+}
+.column2:hover{
+    transform: scale(1.1);
+}
+.column3{
+    width:33%;
+}
+.column3:hover{
+    transform: scale(1.1);
+}
+#CKP{
+    text-align: center;
+}
+.humantext{
+    text-align: center;
+}
+body{
+    background-image: url("images/background.jpg");
+}
+#linkedin{
+    text-decoration: none !important;
 }
