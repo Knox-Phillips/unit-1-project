@@ -1,0 +1,10 @@
+#square img:hover {
+    transform:scale(1.1);
+}
+
+img {
+    display:block;
+    max-width:100%;
+    height:6em;
+    margin:0;
+}
