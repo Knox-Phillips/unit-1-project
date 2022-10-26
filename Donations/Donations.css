@@ -8,3 +8,33 @@ img {
     height:6em;
     margin:0;
 }
+
+section {
+    animation: column2 1s ease 0s 1 normal none;
+}
+
+@keyframes column2 {
+	0% {
+		opacity: 0;
+		transform: translateX(-250px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
+#square {
+    animation: square 1s ease 0s 1 normal none;
+}
+
+@keyframes square {
+	0% {
+		transform: scale(0);
+	}
+
+	100% {
+		transform: scale(1);
+	}
+}
