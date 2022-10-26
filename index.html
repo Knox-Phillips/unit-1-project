@@ -1,15 +1,19 @@
-<<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
-    <head>
-        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-        <meta name="viewport">
-        <title>Bootstrap</title>
-         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-    </head>
-    <body>
-       <!-- Navigation-->
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    
+</head>
+
+<body class="bg-primary d-flex flex-column vh-100">
+    <main class="flex-shrink-0 h-100 row col-lg-12">
+        <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <div class="container px-5 h-20">
+            <div class="container px-5">
                 <a class="navbar-brand" href="../Home/Home.html"><img src="../images/logo.png" alt="" /></a>
                 <button class="navbar-toggler active" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
@@ -24,53 +28,58 @@
                 </div>
             </div>
         </nav>
-     <!--Header--> 
-        <section class= "donations-page">
-          <div class="container-lg">
-                 <div class= "row justify-content-center"></div>
-                     <h1 class="display-2 fw-bold">Donate Now.</h1> 
-                     <h2 class="fs-1 fst-italic fw-bold">Help change the world for millions affected by mental illness.</h2>
-                 </div>
-             </section>
-     </body>
-     <!--Main Section-->
-    <div class="container">
-      <div class="row">
-        <div class="col fw-bold">Sustainable recovery from mental illness and social isolation takes a community. Your donation supports individuals with mental illness at every stage of life, ranging from early intervention programming for college-aged students experiencing a mental health crisis, to a dignified and thriving community for seniors. It also supports advocacy efforts and policies that change lives.</div>
-        <div class="col fw-bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce hendrerit gravida aliquam. Vestibulum tristique feugiat sagittis. Cras semper ipsum nec lorem pretium maximus. Aliquam viverra lacinia neque consectetur fermentum. Curabitur pharetra, nibh et tempus consequat, massa nunc laoreet ipsum, at semper orci elit vitae metus. Aenean a commodo est. Etiam sit amet egestas eros </div>
-        <h3 class="fw-bold"> Donation Type</h3>
-      </div>
-          <section class="btn-group" role="group" aria-label="Basic example">
-               <button type="button" class="btn btn-primary">Donate Once</button>
-               <button type="button" class="btn btn-primary">Give Monthly</button>
-           </section> 
-          <div>
-        <h3 class= "fw-bold">Amount</h3>
-          <button type="button" class="btn btn-primary">$10</button>
-          <button type="button" class="btn btn-primary">$20</button>
-          <button type="button" class="btn btn-primary">$50</button>
-          <button type="button" class="btn btn-primary">$100</button>
-          </div>
-          <div>
-              <h3 class="fw-bold">OTHER</h3>
-              <input type="other" class="form-control-sm" placeholder="$">
-          </div>
-      
-                  <!--footer-->
-      <footer class="bg-dark py-4 mt-auto">
-         <div class="container px-5">
-            <div class="row align-items-center justify-content-between flex-column flex-sm-row">
-                <div class="col-auto">
-                    <div class="small m-0 text-white">Copyright &copy; MentalFriend 2022</div>
+        <!--Header-->
+        <section class="donations-page">
+            <div class="container-lg">
+                <div class="row justify-content-center"></div>
+                <h1 class="display-2 fw-bold text-white">Donate Now.</h1>
+                <h2 class="fs-1 fst-italic fw-bold text-white">Help change the world for millions affected by mental illness.</h2>
+            </div>
+        </section>
+
+        <!--Main Section-->
+        <div class="container d-flex justify-content-around">
+            <div class="container bg-white rounded row col-lg-3 d-flex justify-content-center flex-column w-50 h-10 centerSpace">
+                <div class="row w-100  fw-bold">
+                    <p>Sustainable recovery from mental illness and social isolation takes a community. Your donation supports individuals with mental illness at every stage of life, ranging from early intervention programming for college-aged students experiencing a mental health crisis, to a dignified and thriving community for seniors. It also supports advocacy efforts and policies that change lives.</p>
                 </div>
-                <div class="col-auto">
-                    <a class="link-light small" href="#!">Privacy</a>
-                    <span class="text-white mx-1">&middot;</span>
-                    <a class="link-light small" href="#!">Terms</a>
-                    <span class="text-white mx-1">&middot;</span>
-                    <a class="link-light small" href="#!">Contact</a>
+                <div class="container">
+                    <h3 class="fw-bold">Want to help? Donate to one of these organizations below!</h3>
+                    <a href="https://nami.org/About-NAMI/Donate-to-NAMI">
+                        <img src="https://www.google.com/imgres?imgurl=https%3A%2F%2Fnaminycmetro.org%2Fwp-content%2Fuploads%2F2022%2F01%2Fnami-logo-placeholder-blue.png&imgrefurl=https%3A%2F%2Fnaminycmetro.org%2F&tbnid=sPo4GpoK5Lf3XM&vet=12ahUKEwjh64qJqf76AhX-o3IEHbHrCAQQMygKegUIARC7AQ..i&docid=BfqXgB4I271WzM&w=600&h=400&q=NAMI%20HEALTH%20ICON&hl=en&ved=2ahUKEwjh64qJqf76AhX-o3IEHbHrCAQQMygKegUIARC7AQ" class="img-fluid" alt="Responsive image">
+                    </a>
+                    <a href="https://www.mhanational.org/donate-now">
+                        <button type="button" class="btn btn-outline-primary">MHA</button>
+                    </a>
+                    <a href="https://jedfoundation.org/">
+                        <button type="button" class="btn btn-outline-primary">JED</button>
+                    </a>
+                    <a href="https://supporting.afsp.org/index.cfm?fuseaction=donate.event&eventID=1&_ga=2.196179884.1857457840.1625596902-1487690552.1625596902">
+                        <button type="button" class="btn btn-outline-primary">AFSP</button>
+                    </a>
                 </div>
             </div>
+            <aside class="container row col-lg-5 d-flex w-50">
+                <h3 class="fw-bold text-white">Fund Mental Health Research</h3>
+                <p class="text-white h-100">When you donate, you lay the groundwork for a world where mental illness is better understood, diagnosed, treated and, maybe someday, prevented.
+                    Your donation funds research. And research makes that world a reality.</p>
+            </aside>
         </div>
-    </footer>
-  
+        <!--footer-->
+        <footer class="bg-dark py-4 mt-auto">
+            <div class="container px-5">
+                <div class="row align-items-center justify-content-between flex-column flex-sm-row">
+                    <div class="col-auto">
+                        <div class="small m-0 text-white">Copyright &copy; MentalFriend 2022</div>
+                    </div>
+                    <div class="col-auto">
+                        <a class="link-light small" href="#!">Privacy</a>
+                        <span class="text-white mx-1">&middot;</span>
+                        <a class="link-light small" href="#!">Terms</a>
+                        <span class="text-white mx-1">&middot;</span>
+                        <a class="link-light small" href="#!">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+</body>
