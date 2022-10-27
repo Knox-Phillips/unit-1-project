@@ -1,13 +1,19 @@
-main {
-    height:100vh;
-}
 
+
+* {
+	font-family: "Playfair Display";
+	text-shadow: 0 0 1px transparent;;
+}
 h1{
     text-align: center !important;
 }
 p{
-	font-size: large;
+	font-size: x-large;
 	font-weight: bold;
+}
+.text{
+	width:100%;
+	margin:0 auto;
 }
 .bg-dark{
 	height:19.5%;
@@ -26,9 +32,10 @@ video{
 	z-index:-10;
 }
 .aboutbox{
-    display: grid;
-    grid-template-columns: .5fr 1.5fr .5fr;
+    display: flex;
+    
 }
+
 figcaption{
     height: 100%
 }
@@ -45,6 +52,7 @@ figcaption{
     justify-content:space-around;
     width:100%;
     height:45%;
+    margin-top:7em;
 }
 .humanpic{
     display:flex;
@@ -199,4 +207,17 @@ figcaption{
 		opacity: 1;
 		transform: translateX(0) rotate(0deg);
 	}
+}
+@media screen and (max-width:650px) {
+	.rightpicdiv {
+		display:none;
+	}
+	.leftpicdiv {
+		display:none;
+	}
+	.bottompics {
+		flex-direction:column;
+		align-items:center;
+	}
+	
 }

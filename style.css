@@ -14,9 +14,12 @@
 	min-width: 100%;
 	min-height: 100%;
 }
-
+#carouselExampleControls {
+	background-color: red
+}
 nav {
 	background-color: #023E8A;
+	z-index:10;
 }
 body{
   background-image: linear-gradient(lightblue, blue);
@@ -64,7 +67,11 @@ iframe {
 }
 #features {
 	animation: features 0.5s ease-out 0s 1 normal forwards;
+	  background:rgba(186, 169, 244, 0.4) /* Green background with 30% opacity */
+
 }
+
+
 
 @keyframes features {
 	0% {

@@ -1,3 +1,7 @@
+* {
+	font-family: "Playfair Display";
+	text-shadow: 0 0 1px transparent;
+}
 body {
 	background-color: purple
 }
