@@ -18,7 +18,9 @@
 nav {
 	background-color: #023E8A;
 }
-
+body{
+  background-image: linear-gradient(lightblue, blue);
+}
 nav a:hover {
 	border-bottom: 2px solid white;
 	padding-bottom: 0

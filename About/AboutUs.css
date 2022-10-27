@@ -12,7 +12,19 @@ p{
 .bg-dark{
 	height:19.5%;
 }
-
+nav img{
+	height:6em;
+}
+nav{
+	height:auto;
+	background-color: #023E8A
+}
+body{
+  background-image: linear-gradient(lightblue, blue);
+}
+video{
+	z-index:-10;
+}
 .aboutbox{
     display: grid;
     grid-template-columns: .5fr 1.5fr .5fr;
