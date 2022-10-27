@@ -7,9 +7,12 @@ body {
 }
 
 navbar {
-	background-color: #023E8A
+	background-color: #023E8A;
+	color:white;
 }
-
+ul li a{
+	color:white;
+}
 main {
 	z-index: 10;
 }
@@ -28,4 +31,13 @@ footer {
 
 .form {
 	border-radius:30px;
+}
+
+img {
+	height:6.4em!important;
+}
+
+.nav-link {
+	color:white !important;
+	text-decoration:none;
 }
