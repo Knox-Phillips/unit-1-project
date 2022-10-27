@@ -77,10 +77,9 @@ footer {
     transform: scale(1.2);
     -webkit-transition: transform 0.5s ease-in;
 }
-<<<<<<< HEAD
 
-=======
 #text-start{
-    list-style-type: none
+    list-style-type: none;
+    color:black;
 }
->>>>>>> adf3e0c912c3c28070cc9ddb39eac582066a0c53
+
