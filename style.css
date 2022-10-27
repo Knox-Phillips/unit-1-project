@@ -50,18 +50,15 @@ header {
 }
 
 #background{
-    animation: background 15s linear 0s infinite normal none;
+    animation: myAnim 4.5s ease 0s 1  forwards;
     
 }
-
-@keyframes background {
+@keyframes myAnim {
 	0% {
-		background-position: right bottom;
-		background-size: 100%;
+		opacity: 0;
 	}
 
 	100% {
-		background-position: right bottom;
-		background-size: 150%;
+		opacity: 1;
 	}
 }
