@@ -1,7 +1,9 @@
-main {
-    height:100vh;
-}
 
+
+* {
+	font-family: "Playfair Display";
+	text-shadow: 0 0 1px transparent;;
+}
 h1{
     text-align: center !important;
 }
@@ -26,7 +28,7 @@ video{
 	z-index:-10;
 }
 .aboutbox{
-    display: grid;
+    display: flex;
     grid-template-columns: .5fr 1.5fr .5fr;
 }
 figcaption{
@@ -200,4 +202,17 @@ figcaption{
 		opacity: 1;
 		transform: translateX(0) rotate(0deg);
 	}
+}
+@media screen and (max-width:650px) {
+	.rightpicdiv {
+		display:none;
+	}
+	.leftpicdiv {
+		display:none;
+	}
+	.bottompics {
+		flex-direction:column;
+		align-items:center;
+	}
+	
 }

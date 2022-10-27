@@ -6,6 +6,10 @@ main {
     font-family: arial;
 }
 
+* {
+	font-family: "Playfair Display";
+	text-shadow: 0 0 1px transparent;
+}
 #navBar {
     background-color: #023E8A;
     display: flex;
