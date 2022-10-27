@@ -25,3 +25,7 @@ footer {
 #Contacts:hover {
 	transform: scale(1.5);
 }
+
+.form {
+	border-radius:30px;
+}
