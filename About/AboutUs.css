@@ -12,7 +12,19 @@ p{
 .bg-dark{
 	height:19.5%;
 }
-
+nav img{
+	height:6em;
+}
+nav{
+	height:auto;
+	background-color: #023E8A
+}
+body{
+  background-image: linear-gradient(lightblue, blue);
+}
+video{
+	z-index:-10;
+}
 .aboutbox{
     display: grid;
     grid-template-columns: .5fr 1.5fr .5fr;
@@ -68,18 +80,18 @@ figcaption{
 .humantext{
     text-align: center;
 }
-body{
-    background-image: url("images/teamwork.png");
-    background-repeat: no-repeat;
-	background-attachment: fixed;
- 	background-position: center;
- 	overflow-x: hidden;
-}
 
 #linkedin{
     text-decoration: none !important;
 }
-
+#myVideo {
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	min-width: 100%;
+	min-height: 100%;
+	z-index: -10;
+}
 .leftpicdiv {
     animation: leftpicdiv 1s ease 0s  normal none;
 }
