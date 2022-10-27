@@ -68,18 +68,18 @@ figcaption{
 .humantext{
     text-align: center;
 }
-body{
-    background-image: url("images/teamwork.png");
-    background-repeat: no-repeat;
-	background-attachment: fixed;
- 	background-position: center;
- 	overflow-x: hidden;
-}
 
 #linkedin{
     text-decoration: none !important;
 }
-
+#myVideo {
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	min-width: 100%;
+	min-height: 100%;
+	z-index: -10;
+}
 .leftpicdiv {
     animation: leftpicdiv 1s ease 0s  normal none;
 }
