@@ -17,6 +17,7 @@
 
 nav {
 	background-color: #023E8A;
+	z-index:10;
 }
 body{
   background-image: linear-gradient(lightblue, blue);
