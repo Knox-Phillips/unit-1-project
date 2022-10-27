@@ -1,0 +1,23 @@
+body {
+	background-color: purple
+}
+
+navbar {
+	background-color: #0d6efd
+}
+
+main {
+	z-index: 10;
+}
+
+footer {
+	z-index: 10;
+
+}
+#Contacts {
+		font-size: 1em;
+		text-decoration:underline;
+}
+#Contacts:hover {
+	transform: scale(1.5);
+}
