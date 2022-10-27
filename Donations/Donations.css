@@ -30,12 +30,10 @@ body{
 }
 #rectangle{
     background-color:lightblue;
+    
 }
-#logobtn{
-    margin-bottom:10em;
-}
-#logoBtn{
-    margin-top:7em;
+#logo{
+    margin-top:2.5em;
 }
 nav {
     color: white;
@@ -78,4 +76,7 @@ footer {
 #square img:hover {
     transform: scale(1.2);
     -webkit-transition: transform 0.5s ease-in;
+}
+#text-start{
+    list-style-type: none
 }
