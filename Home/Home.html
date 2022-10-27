@@ -10,23 +10,29 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=" Playfair Display"">
+  <script src="home.js"></script>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 </head>
 
 <body class="d-flex flex-column h-100">
   <main class="flex-shrink-0">
     <!-- Navigation-->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+    <video autoplay muted loop id="myVideo">
+      <source src="https://player.vimeo.com/external/636709947.hd.mp4?s=b4c5ea9535bafc173b578fd98ba4843961e58dde&profile_id=174" type="video/mp4">
+    </video>
+    <nav class="navbar navbar-expand-lg navbar-dark">
       <div class="container px-5 h-25">
 
-        <a class="navbar-brand" href="../Home/Home.html"><img src="../images/logo.png" alt="" /></a>
+        <img src="../images/logo.png" alt="" />
         <button class="navbar-toggler active" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
         <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
-            <li class="nav-item"><a class="nav-link" href="../Home/Home.html">Home</a></li>
-            <li class="nav-item"><a class="nav-link" href="../About/Aboutus.html">About</a></li>
-            <li class="nav-item"><a class="nav-link" href="../Contact/ContactUs.html">Contact</a></li>
-            <li class="nav-item"><a class="nav-link" href="../Donations/Donations.html">Donations</a></li>
+            <li class="nav-item"><a class="nav-link mx-3" href="../Home/Home.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link mx-3" href="../About/Aboutus.html">About</a></li>
+            <li class="nav-item"><a class="nav-link mx-3" href="../Contact/ContactUs.html">Contact</a></li>
+            <li class="nav-item"><a class="nav-link ms-3" href="../Donations/Donations.html">Donations</a></li>
             <li class="nav-item dropdown">
             </li>
           </ul>
@@ -34,187 +40,201 @@
       </div>
     </nav>
     <!-- Header-->
-    <div class="bg-image" id="background" style="background-image: url('https://mdbootstrap.com/img/Photos/Others/images/76.jpg');">
-      <header class="opacity-100 py-5 d-flex">
-        <div class="container-fluid px-5">
-          <div class="row gx-5 align-items-center justify-content-center">
-            <div class="col-lg-9 col-xl-7 col-xxl-6">
-              <div class="my-5 text-center text-xl-center">
-                <h1 class="display-5 fw-bolder text-white mb-2">Mental Awareness Support Systems</h1>
-                <p class="lead fw-normal text-white-50 mb-4">A Tribute to Mental illness victims and those who want to support them</p>
-                <div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xl-between">
-                  <a class="btn btn-outline-light btn-primary btn-lg px-4 me-sm-3" href="#features">Get Started</a>
-                  <a class="btn btn-outline-light btn-lg px-4" href="#info">Learn More</a>
-                </div>
-                <div id="carouselExampleControls" class="carousel slide row px-5 col-lg-5 d-block justify-content-center mx-auto" data-bs-ride="carousel">
-                  <div class="carousel-inner">
-                    <div class="carousel-item active">
-                      <a href="https://www.mhanational.org/housing:" target="blank"><img class:"img-fluid" src="../images/logo.png" class="d-inline w-100" alt="..."></a>
-                    </div>
-                    <div class="carousel-item">
-                      <a href="mttps://opa.hhs.gov/adolescent-health?adolescent-development/mental-health/index.html" target="blank"><img class:"img-fluid" src="../images/oash-logo.svg" class="d-block w-100" alt="..."></a>
-                    </div>
-                    <div class="carousel-item">
-                      <a href="http://www.mhresources.org/" target="blank"><img class:"img-fluid" src="../images/MHR_Logo_Blue_Justified-01.png" class="d-block w-100" alt="..."></a>
-                    </div>
+    <header class="py-5 d-flex ">
+      <div class="container-fluid px-5">
+        <div class="row gx-5 align-items-center justify-content-center">
+          <div class="col-lg-9 col-xl-7 col-xxl-6">
+            <div class="my-5 text-center text-xl-center">
+              <h1 class="display-5 fw-bolder  mb-2">Mental Awareness Support Systems</h1>
+              <p class="lead fw-normal mb-4">A Tribute to Mental health and supporting those who want to protect it</p>
+              <p class="lead fw-normal mb-4">Click on the images below if you want to learn more.</p>
+              <div class="d-grid gap-3 d-sm-flex mb-sm-5 justify-content-sm-center justify-content-xl-between">
+                <a class="btn btn-outline-light btn-primary btn-lg px-4 me-sm-3" href="#features">Get Started</a>
+                <a class="btn btn-outline-light btn-primary btn-lg px-4" href="#info">Learn More</a>
+              </div>
+              <div id="carouselExampleControls" class="carousel slide row px-5 col-lg-5 d-block justify-content-center mx-auto" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <a href="https://www.mhanational.org/" target="blank"><img class:"img-fluid" src="https://mhanational.org/themes/gavias_colin/images/mha-logo.svg" class="d-inline w-100" alt="..."></a>
                   </div>
-                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                  </button>
-                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                  </button>
+                  <div class="carousel-item">
+                    <a href="mttps://opa.hhs.gov/adolescent-health?adolescent-development/mental-health/index.html" target="blank"><img class:"img-fluid" src="../images/oash-logo.svg" class="d-block w-100" alt="..."></a>
+                  </div>
+                  <div class="carousel-item">
+                    <a href="http://www.mhresources.org/" target="blank"><img class:"img-fluid" src="../images/MHR_Logo_Blue_Justified-01.png" class="d-block w-100" alt="..."></a>
+                  </div>
                 </div>
-
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
               </div>
             </div>
           </div>
         </div>
-      </header>
-      <!-- Features section-->
-      <section class="py-5" id="features">
-        <div class="container px-5 my-5">
-          <div class="row gx-5 justify-content-center">
-            <div class="col-lg-10 mb-5 mb-lg-0 d-flex justify-content-center" id="SecTitle">
-              <h2 class="fw-bolder mb-0">A website dedicated to fighting mental illness.</h2>
-            </div>
-            <div class="col-lg-8">
-              <div class="row gx-5 row-cols-1 row-cols-md-2">
-                <div class="col mb-5 h-100">
-                  <div class="feature bg-primary bg-gradient text-white text-center rounded-3 mb-3"><i class="bi bi-collection"></i></div>
-                  <h2 class="h5 text-center">Work and mental illness</h2>
-                  <p class="mb-0 text-center">Many people find work is important for their mental health and that work helps them feel good about themselves. You may have stopped working because of mental illness and now feel ready to go back. This page explains your options for finding work.</p>
+      </div>
+    </header>
+    <!-- Features section-->
+    <section class="py-5 reveal" id="features">
+      <div class="container px-5 my-5">
+        <div class="row gx-5 justify-content-center">
+          <div class="col-lg-10 mb-5 mb-lg-4 d-flex justify-content-center" id="SecTitle">
+            <h2 class="fw-bolder mb-0">A website dedicated to protecting mental health</h2>
+          </div>
+          <div class="col-lg-8">
+            <div class="row gx-5 row-cols-1 row-cols-md-2">
+              <div class="col mb-5 h-100">
+                <div class="feature bg-primary bg-gradient text-white text-center rounded-3 mb-3">
+                  <a id="icon" class="btn btn-outline" role="button" href="https://www.joblist.com/guides/work-and-wellbeing" target="blank">
+                    <i class="bi bi-briefcase-fill text-white"></i>
+                  </a>
                 </div>
-                <div class="col mb-5 h-100">
-                  <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3 text-center"><i class="bi bi-building"></i></div>
-                  <h2 class="h5 text-center">Housing</h2>
-                  <p class="mb-0 text-center">One of the biggest issues some people with mental illness face is the availability of housing. Most people can and do live independently in apartments or in their own homes. For others, the cascading effects of mental illness might leave them in a precarious housing situation, or even cause them to lose their homes.</p>
+                <h2 class="h4 text-center text-decoration-underline">Work and mental illness</h2>
+                <p class="mb-0 text-center">Many people find work is important for their mental health and that work helps them feel good about themselves. You may have stopped working because of mental illness and now feel ready to go back. Click on the Icon above for help finding work.</p>
+              </div>
+              <div class="col mb-5 h-100">
+                <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3 text-center">
+                  <a id="icon" class="btn btn-outline" role="button" href="https://www1.nyc.gov/site/hpd/services-and-information/resources-for-people-with-disabilities.page" target="blank">
+                    <i class="bi bi-house-door-fill text-white"></i>
+                  </a>
                 </div>
-                <div class="col mb-5 mb-md-0 h-100">
-                  <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3 text-center"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-hospital-fill" viewBox="0 0 16 16">
+                <h2 class="h4 text-center text-decoration-underline">Housing</h2>
+                <p class="mb-0 text-center">One of the biggest issues some people with mental illness face is the availability of housing. Most people can and do live independently in apartments or in their own homes. For others, the cascading effects of mental illness might leave them in a precarious housing situation, or even cause them to lose their homes.</p>
+              </div>
+              <div class="col mb-5 mb-md-0 h-100">
+                <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3 text-center">
+                  <a id="icon" class="btn btn-outline" role="button" target="blank" href="https://www.healthcare.gov/coverage/mental-health-substance-abuse-coverage/">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-hospital-fill text-light" viewBox="0 0 16 16">
                       <path d="M6 0a1 1 0 0 0-1 1v1a1 1 0 0 0-1 1v4H1a1 1 0 0 0-1 1v7a1 1 0 0 0 1 1h6v-2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5V16h6a1 1 0 0 0 1-1V8a1 1 0 0 0-1-1h-3V3a1 1 0 0 0-1-1V1a1 1 0 0 0-1-1H6Zm2.5 5.034v1.1l.953-.55.5.867L9 7l.953.55-.5.866-.953-.55v1.1h-1v-1.1l-.953.55-.5-.866L7 7l-.953-.55.5-.866.953.55v-1.1h1ZM2.25 9h.5a.25.25 0 0 1 .25.25v.5a.25.25 0 0 1-.25.25h-.5A.25.25 0 0 1 2 9.75v-.5A.25.25 0 0 1 2.25 9Zm0 2h.5a.25.25 0 0 1 .25.25v.5a.25.25 0 0 1-.25.25h-.5a.25.25 0 0 1-.25-.25v-.5a.25.25 0 0 1 .25-.25ZM2 13.25a.25.25 0 0 1 .25-.25h.5a.25.25 0 0 1 .25.25v.5a.25.25 0 0 1-.25.25h-.5a.25.25 0 0 1-.25-.25v-.5ZM13.25 9h.5a.25.25 0 0 1 .25.25v.5a.25.25 0 0 1-.25.25h-.5a.25.25 0 0 1-.25-.25v-.5a.25.25 0 0 1 .25-.25ZM13 11.25a.25.25 0 0 1 .25-.25h.5a.25.25 0 0 1 .25.25v.5a.25.25 0 0 1-.25.25h-.5a.25.25 0 0 1-.25-.25v-.5Zm.25 1.75h.5a.25.25 0 0 1 .25.25v.5a.25.25 0 0 1-.25.25h-.5a.25.25 0 0 1-.25-.25v-.5a.25.25 0 0 1 .25-.25Z" />
-                    </svg></div>
-                  <h2 class="h5 text-center">Mental and behavioral health services</h2>
-                  <p class="mb-0 text-center">All plans must cover:
-                  <ul>
-                    <li>Behavioral health treatment, such as psychotherapy and counseling</li>
-                    <li>Mental and behavioral health inpatient services</li>
-                    <li>Substance use disorder (commonly known as substance abuse) treatment</li>
-                  </ul>
-                  If you are not recieving proper treatment contact us.
-                  </p>
+                    </svg>
+                  </a>
                 </div>
-                <div class="col h-100">
-                  <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3 text-center"><i class="bi bi-toggles2 text-center"></i></div>
-                  <h2 class="h5 text-center">Mental Health Rights</h2>
-                  <p class="mb-0 text-center">People living with mental health conditions are people. They have people they love, activities they enjoy, and dreams for their lives. As people, they deserve to be treated with dignity, and under the law they have rights and protections.</p>
+                <h2 class="h4 text-center text-decoration-underline">Mental and behavioral health services</h2>
+                <p class="mb-0 text-center">All plans must cover:
+                  Behavioral health treatment, such as psychotherapy and counseling;
+                  Mental and behavioral health inpatient services;
+                  Substance use disorder (commonly known as substance abuse) treatment.
+                  If you are not recieving proper treatment click the link above.
+                </p>
+              </div>
+              <div class="col h-100">
+                <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3 text-center">
+                  <a id="icon" class="btn btn-outline" role="button" href="https://mhanational.org/issues/mental-health-rights" target="blank">
+                    <i class="bi bi-pen-fill text-white"></i>
+                  </a>
+                </div>
+                <h2 class="h4 text-center text-decoration-underline">Mental Health Rights</h2>
+                <p class="mb-0 text-center">People living with mental health conditions are people. They have people they love, activities they enjoy, and dreams for their lives. As people, they deserve to be treated with dignity, and under the law they have rights and protections.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Testimonial section-->
+    <!-- Informational section-->
+    <section class="py-5 reveal" id="info">
+      <div class="container px-5 my-5">
+        <div class="row gx-5 justify-content-center">
+          <div class="col-lg-8 col-xl-6">
+            <div class="text-center">
+              <h2 class="h1 text-decoration-underline fw-bolder">Resources</h2>
+              <p class="h4 lead fw-bolder text-dark mb-5">A collection of a few websites that discuss Mental Health</p>
+            </div>
+          </div>
+        </div>
+        <div class="row gx-5">
+          <div class="col-lg-4 mb-5" id="card">
+            <div class="card h-100 shadow border-0">
+              <div class="embed-responsive embed-responsive-16by9">
+                <iframe width="1280" height="720" src="https://www.youtube.com/embed/BpzVvUGfJeA" title="What is Mental Health?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+              <div class="card-body p-4">
+                <div class="badge bg-primary bg-gradient rounded-pill mb-2">Definition</div>
+                <h5 class="card-title mb-3">What are mental health issues?</h5>
+                <p class="card-text mb-0">We must first start with what is mental health? Why is it important? The Video above will explain more and you may click the logo below for an article on mental health.</p>
+              </div>
+              <div class="card-footer p-4 pt-0 bg-transparent border-top-0">
+                <div class="d-flex align-items-end justify-content-between">
+                  <div class="d-flex align-items-center ">
+                    <a href="https://publichealth.nyu.edu/explore/what-is-mental-health" target="blank"><img class=" me-4" src="../images/nyuLogo.png" alt="..." /></a>
+                    <div class="small">
+                      <div class="fw-bold">Paul Farmer CBE - Chief Executive Officer</div>
+                      <div class="text-muted">October 2017 &middot; 6 min read</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 mb-5" id="card">
+            <div class="card h-100 shadow border-0 embed-responsive">
+              <div class="embed-responsive embed-responsive-16by9">
+                <iframe width="626" height="352" src="https://www.youtube.com/embed/XlBXWtH31Q8" title="The Data on Serious Mental Illness in the United States" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+              <div class="card-body p-4">
+                <div class="badge bg-primary bg-gradient rounded-pill mb-2">Data</div>
+                <h5 class="card-title mb-3">Statistics on Mental health victims</h5>
+                <p class="card-text mb-0">A couple of numerical statistics on how mental health affects people. Click the logo below for more information.</p>
+              </div>
+              <div class="card-footer p-4 pt-0 bg-transparent border-top-0">
+                <div class="d-flex align-items-end justify-content-between">
+                  <div class="d-flex align-items-center">
+                    <a href="https://www.psychiatry.org/patients-families/what-is-mental-illness" target="blank"><img class="img-fluid me-4" src="../images/data.svg" alt="..." /></a>
+                    <div class="small">
+                      <div class="fw-bold">Ranna Parekh, M.D., M.P.H.</div>
+                      <div class="text-muted">August 2018 &middot; 6 min read</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 mb-5" id="card">
+            <div class="card h-100 shadow border-0">
+              <div class="embed-responsive embed-responsive-16by9">
+                <iframe width="750" height="422" src="https://www.youtube.com/embed/OcZNRX-68oE" title="Can you make someone get help with their mental health? | Episode 4 #AskMind" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+              <div class="card-body p-4">
+                <div class="badge bg-primary bg-gradient rounded-pill mb-2">Next-Steps</div>
+                <h5 class="card-title mb-3">Possible next-steps for mental health victims</h5>
+                <p class="card-text mb-0">Asking for help is hard, This video will guide you to the proper ways to ask for help and where you can find help.Click the logo below for more information.</p>
+              </div>
+              <div class="card-footer p-4 pt-0 bg-transparent border-top-0">
+                <div class="d-flex align-items-end justify-content-between">
+                  <div class="d-flex align-items-center">
+                    <a href="https://www.mind.org.uk/information-support/guides-to-support-and-services/seeking-help-for-a-mental-health-problem/helping-someone-else-seek-help/" target="blank"> <img class="rounded-square me-5" src="../images/nextsteps.png" alt="..." /></a>
+                    <div class="small">
+                      <div class="fw-bold">Lucy Newman</div>
+                      <div class="text-muted"> May 2017 &middot; 6 min read</div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </section>
-      <!-- Testimonial section-->
-      <!-- Informational section-->
-      <section class="py-5" id="info">
-        <div class="container px-5 my-5">
-          <div class="row gx-5 justify-content-center">
-            <div class="col-lg-8 col-xl-6">
-              <div class="text-center">
-                <h2 class="fw-bolder">From Other Websites</h2>
-                <p class="lead fw-normal text-muted mb-5">A collection of a few websites that discuss Mental Health</p>
-              </div>
-            </div>
-          </div>
-          <div class="row gx-5">
-            <div class="col-lg-4 mb-5" id="card">
-              <div class="card h-100 shadow border-0">
-                <div class="embed-responsive embed-responsive-16by9">
-                  <iframe width="1280" height="720" src="https://www.youtube.com/embed/BpzVvUGfJeA" title="What is Mental Health?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
-                <div class="card-body p-4">
-                  <div class="badge bg-primary bg-gradient rounded-pill mb-2">Definition</div>
-                  <h5 class="card-title mb-3">What are mental health issues?</h5>
-                  <p class="card-text mb-0">We must first start with what is mental health? Why is it important? The Video above will explain more and you may click the logo below for an article on mental health.</p>
-                </div>
-                <div class="card-footer p-4 pt-0 bg-transparent border-top-0">
-                  <div class="d-flex align-items-end justify-content-between">
-                    <div class="d-flex align-items-center ">
-                      <a href="https://publichealth.nyu.edu/explore/what-is-mental-health" target="blank"><img class=" me-4" src="../images/nyuLogo.png" alt="..." /></a>
-                      <div class="small">
-                        <div class="fw-bold">Paul Farmer CBE - Chief Executive Officer</div>
-                        <div class="text-muted">October 2017 &middot; 6 min read</div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 mb-5" id="card">
-              <div class="card h-100 shadow border-0 embed-responsive">
-                <div class="embed-responsive embed-responsive-16by9">
-                  <iframe width="626" height="352" src="https://www.youtube.com/embed/XlBXWtH31Q8" title="The Data on Serious Mental Illness in the United States" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
-                <div class="card-body p-4">
-                  <div class="badge bg-primary bg-gradient rounded-pill mb-2">Data</div>
-                  <h5 class="card-title mb-3">Statistics on Mental health victims</h5>
-                  <p class="card-text mb-0">A couple of numerical statistics on how mental health affects people. Click the logo below for more information.</p>
-                </div>
-                <div class="card-footer p-4 pt-0 bg-transparent border-top-0">
-                  <div class="d-flex align-items-end justify-content-between">
-                    <div class="d-flex align-items-center">
-                      <a href="https://www.psychiatry.org/patients-families/what-is-mental-illness" target="blank"><img class="img-fluid me-4" src="../images/data.svg" alt="..." /></a>
-                      <div class="small">
-                        <div class="fw-bold">Ranna Parekh, M.D., M.P.H.</div>
-                        <div class="text-muted">August 2018 &middot; 6 min read</div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 mb-5" id="card">
-              <div class="card h-100 shadow border-0">
-                <div class="embed-responsive embed-responsive-16by9">
-                  <iframe width="750" height="422" src="https://www.youtube.com/embed/OcZNRX-68oE" title="Can you make someone get help with their mental health? | Episode 4 #AskMind" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
-                <div class="card-body p-4">
-                  <div class="badge bg-primary bg-gradient rounded-pill mb-2">Next-Steps</div>
-                  <h5 class="card-title mb-3">Possible next-steps for mental health victims</h5>
-                  <p class="card-text mb-0">Asking for help is hard, This video will guide you to the proper ways to ask for help and where you can find help.Click the logo below for more information.</p>
-                </div>
-                <div class="card-footer p-4 pt-0 bg-transparent border-top-0">
-                  <div class="d-flex align-items-end justify-content-between">
-                    <div class="d-flex align-items-center">
-                      <a href="https://www.mind.org.uk/information-support/guides-to-support-and-services/seeking-help-for-a-mental-health-problem/helping-someone-else-seek-help/" target="blank"> <img class="rounded-square me-5" src="../images/nextsteps.png" alt="..." /></a>
-                      <div class="small">
-                        <div class="fw-bold">Lucy Newman</div>
-                        <div class="text-muted"> May 2017 &middot; 6 min read</div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      </div>
+    </section>
+
   </main>
   <!-- Footer-->
-  <footer class="bg-dark py-4 mt-auto">
+  <footer class="bg-dark py-4 mt-auto position-relative">
     <div class="container px-5">
       <div class="row align-items-center justify-content-between flex-column flex-sm-row">
         <div class="col-auto">
           <div class="small m-0 text-white">Copyright &copy; MentalFriend 2022</div>
         </div>
         <div class="col-auto">
-          <a class="link-light small" href="#!">Privacy</a>
+          <a class="link-light small" href="../privacy.html">Privacy</a>
           <span class="text-white mx-1">&middot;</span>
           <a class="link-light small" href="#!">Terms</a>
           <span class="text-white mx-1">&middot;</span>
-          <a class="link-light small" href="#!">Contact</a>
+          <a class="link-light small" href="../Contact/ContactUs.html">Contact</a>
         </div>
       </div>
     </div>
