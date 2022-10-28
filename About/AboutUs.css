@@ -22,6 +22,9 @@ p{
 nav img{
 	height:6em;
 }
+header {
+	transform:scale(1.7);
+}
 nav{
 	height:auto;
 	background-image: linear-gradient(to left, rgba(140, 198, 251, 1), rgba(0, 0, 0, 0.74));
@@ -39,7 +42,9 @@ video{
     display: flex;
     
 }
-
+.card {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.74), rgba(140, 198, 251, 1));
+}
 figcaption{
     height: 100%
 }
@@ -242,5 +247,33 @@ nav a:hover {
 
 	nav img {
 	transform: scale(1.2)
+}
+header {
+	transform:scale(1.3);
+}
+}
+
+@media screen and (max-width:600px) {
+
+	nav img {
+	transform: scale(1.2)
+}
+header {
+	transform:scale(1.3);
+}
+.card {
+	width:100%;
+}
+}
+@media screen and (max-width:1360px) {
+
+	nav img {
+	transform: scale(1.2)
+}
+header {
+	transform:scale(1.2);
+}
+.card {
+	width:100%;
 }
 }
