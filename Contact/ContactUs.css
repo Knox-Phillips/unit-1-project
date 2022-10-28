@@ -8,11 +8,9 @@ body {
 
 navbar {
 	background-image: linear-gradient(to left, rgba(140, 198, 251, 1), rgba(0, 0, 0, 0.74));
-	color:white;
+
 }
-ul li a{
-	color:white;
-}
+
 main {
 	z-index: 10;
 }
@@ -23,6 +21,16 @@ nav a:hover {
 footer {
 	z-index: 10;
 
+}
+#contacthead h1{
+		font-size:6em;
+}
+#contacthead p{
+		font-size:3em;
+}
+navbar a:hover {
+	border-bottom: 2px solid white;
+	padding-bottom: 0
 }
 navbar img {
 	transform: scale(2.0)
