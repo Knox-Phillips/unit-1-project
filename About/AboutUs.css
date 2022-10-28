@@ -12,8 +12,9 @@ p{
 	font-weight: bold;
 }
 .text{
-	width:100%;
+	width:75%;
 	margin:0 auto;
+	text-align: center
 }
 .bg-dark{
 	height:19.5%;
@@ -23,7 +24,7 @@ nav img{
 }
 nav{
 	height:auto;
-	background-color: #023E8A
+	background-image: linear-gradient(to left, rgba(140, 198, 251, 1), rgba(0, 0, 0, 0.74));
 }
 body{
   background-image: linear-gradient(lightblue, blue);
@@ -220,4 +221,17 @@ figcaption{
 		align-items:center;
 	}
 	
+}
+nav a:hover {
+	border-bottom: 2px solid white;
+	padding-bottom: 0
+}
+#para {
+    width: 86%;
+    margin: 0 auto;
+}
+
+.about-text {
+	width:fit-content;
+	border-bottom:3px solid rgba(0, 0, 0, 0.6);
 }

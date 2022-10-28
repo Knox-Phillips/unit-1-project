@@ -16,7 +16,10 @@ main {
     font-family: "Playfair Display";
     text-shadow: 0 0 1px transparent;
 }
-
+nav a:hover {
+	border-bottom: 2px solid white;
+	padding-bottom: 0
+}
 #navBar {
     background-color: #023E8A;
     display: flex;
@@ -52,7 +55,7 @@ nav {
     color: white;
     display: flex;
     justify-content: space-between;
-    background-color: #023E8A;
+    background-image: linear-gradient(to left, rgba(140, 198, 251, 1), rgba(0, 0, 0, 0.74));
 }
 
 footer {
