@@ -24,6 +24,9 @@ footer {
 	z-index: 10;
 
 }
+navbar img {
+	transform: scale(2.0)
+}
 #Contacts {
 		font-size: 1em;
 		text-decoration:underline;
@@ -43,4 +46,10 @@ img {
 .nav-link {
 	color:white !important;
 	text-decoration:none;
+}
+@media screen and (max-width:800px) {
+
+	nav img {
+	transform: scale(1.2)
+}
 }

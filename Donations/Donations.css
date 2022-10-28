@@ -13,7 +13,9 @@ main {
     color: white;
     font-family: arial;
 }
-
+nav {
+    z-index:10;
+}
 * {
     font-family: "Playfair Display";
     text-shadow: 0 0 1px transparent;
@@ -27,6 +29,7 @@ nav a:hover {
     display: flex;
     justify-content: space-between;
     width: 30%;
+    
 }
 
 video {
@@ -49,6 +52,10 @@ body {
 
 }
 
+#rectangle p {
+    font-size:1.7em
+
+}
 #logo {
     margin-top: 2.5em;
 }
@@ -99,8 +106,26 @@ footer {
 #text-start {
     list-style-type: none;
     color: black;
+    font-size:1.5em;
 }
-
+nav img {
+	transform: scale(2.2)
+}
+u {
+    font-size:3em;
+}
+#header{
+    font-size:6em;
+    
+}
+@media screen and (min-width:400px)
+{
+    #rectangle p {
+        transform: scale(0.8);
+        font-size:2em;
+        text-align:center;
+    }
+}
 @media screen and (max-width:1080px) {
     #square p {
         transform: scale(1.05);
@@ -144,5 +169,10 @@ footer {
     }
 }
 
-@media screen and (max-width:1480px) {
+
+@media screen and (max-width:800px) {
+
+	nav img {
+	transform: scale(1.2)
+}
 }

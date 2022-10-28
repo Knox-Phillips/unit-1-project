@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="Donations.css" type="text/css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=" Playfair Display"">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -20,28 +20,28 @@
     <main>
 
         <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-dark">
-            <div class="container px-5 h-25">
+    <nav class="navbar navbar-expand-lg navbar-dark position-sticky top-0">
+      <div class="container px-5 h-25">
 
-                <img src="../images/logo.png" alt="" />
-                <button class="navbar-toggler active" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
-                        <li class="nav-item"><a class="nav-link mx-3" href="../index.html">Home</a></li>
-                        <li class="nav-item"><a class="nav-link mx-3" href="../About/Aboutus.html">About</a></li>
-                        <li class="nav-item"><a class="nav-link mx-3" href="../Contact/ContactUs.html">Contact</a></li>
-                        <li class="nav-item"><a class="nav-link ms-3" href="../Donations/Donations.html">Donations</a></li>
-                        <li class="nav-item dropdown">
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
+        <img src="../images/logo.png" alt="" />
+        <button class="navbar-toggler active" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
+            <li class="nav-item"><a class="nav-link mx-3" href="../index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link mx-3" href="../About/Aboutus.html">About</a></li>
+            <li class="nav-item"><a class="nav-link mx-3" href="../Contact/ContactUs.html">Contact</a></li>
+            <li class="nav-item"><a class="nav-link ms-3" href="../Donations/Donations.html">Donations</a></li>
+            <li class="nav-item dropdown">
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
         <!--Header-->
         <section class="donations-page">
             <div class="container-lg mt-3">
                 <div class="row justify-content-center">
-                    <h1 class="display-2 fw-bold me-5 text-center">Donate Now.</h1>
+                    <h1 id="header" class="display-1 fw-bold me-0 text-center text-decoration-underline">Donate Now</h1>
                     <h2 class="fs-1 fst-italic fw-bold text-center">Help change the world for millions affected by mental illness.</h2>
                 </div>
             </div>
@@ -50,9 +50,9 @@
 <!--Main Section-->
 <div class="container mx-auto">
     <div class="row mx-auto" id="square">
-        <div class="col fw-bold rounded-3 mt-5 mb-5 px-5 animate__animated animate__slideInLeft" id="rectangle">
-            <p class="fw-bold text-justify mt-5 "> Your donation supports individuals with mental illness at every stage of life, ranging from early intervention programming for college-aged students experiencing a mental health crisis, to a dignified and thriving community for seniors. It also supports advocacy efforts and policies that change lives.</p>
-            <p class="fw-bold text-center fs-3 mt-5">Want to help? Donate to one of these organizations below!</p>
+        <div class="col fw-bold rounded-3 mt-5 mb-5 px-5 pb-5 animate__animated animate__slideInLeft" id="rectangle">
+            <p class="fw-bold text-center mt-5 "> Your donation supports individuals with mental illness at every stage of life, ranging from early intervention programming for college-aged students experiencing a mental health crisis, to a dignified and thriving community for seniors. It also supports advocacy efforts and policies that change lives.</p>
+            <p class="fw-bold text-center fs-1 mt-5">Want to help? Donate to one of these organizations below!</p>
             <div id="logo" class="d-flex align-items-center justify-content-between h-0">
                 <div class="col-lg-6 row-lg-4 d-inline-block ">
                     <a class="align-start" href="https://www.nami.org/home" target="blank"><img id="logobtn" src="https://www.nami.org/NAMI/media/NAMI-Redesign/logo-small-2x.png" alt=""></a>
