@@ -29,7 +29,14 @@ h5 {
 }
 
 nav img {
-	transform: scale(2.0)
+	transform: scale(1.05)
+}
+#mental {
+	font-size:3em;
+}
+#friends {
+	color:#00aeef;
+	font-size:3em;
 }
 
 nav {
@@ -231,9 +238,9 @@ header {
 	}
 }
 
-@media screen and (max-width:800px) {
+@media screen and (max-width:850px) {
 	header h1 {
-		transform: scale(1.7);
+		transform: scale(1.6);
 		font-size: x-large;
 	}
 
@@ -243,5 +250,9 @@ header {
 	}
 	nav img {
 	transform: scale(1.2)
+}
+	#infoHead {
+	transform: scale(1.0);
+
 }
 }

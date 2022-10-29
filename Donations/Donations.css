@@ -40,7 +40,7 @@ video {
 img {
     display: block;
     max-width: 100%;
-    height: 6em !important;
+    height: 5em !important;
     margin: 0;
 }
 
@@ -110,11 +110,19 @@ footer {
     font-size:1.5em;
 }
 nav img {
-	transform: scale(2.2)
+	transform: scale(1.2)
 }
 u {
     font-size:3em;
 }
+#mental {
+	font-size:3em;
+}
+#friends {
+	color:#00aeef!important;
+	font-size:3em;
+}
+
 #header{
     font-size:6em;
     

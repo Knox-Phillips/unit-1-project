@@ -30,8 +30,16 @@ nav{
 	background-image: linear-gradient(to left, rgba(140, 198, 251, 1), rgba(0, 0, 0, 0.74));
 }
 nav img {
-	transform: scale(2.2)
+	transform: scale(1.2)
 }
+#mental {
+	font-size:3em;
+}
+#friends {
+	color:#00aeef;
+	font-size:3em;
+}
+
 body{
   background-image: linear-gradient(lightblue, blue);
 }

@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <title>Mental Illness Tribute</title>
     <link rel="stylesheet" href="ContactUs.css" type="text/css" />
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <!-- Favicon-->
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
     <!-- Bootstrap icons-->
@@ -26,7 +26,11 @@
         <!-- Navigation-->
         <navbar class="navbar navbar-expand-lg">
             <div class="container px-5">
-                <img src="../images/logo.png" alt="" />
+                <div class="d-sm-flex flex-xs-column align-items-center">
+                    <img src="../images/navlogo.png" alt="Mental Friends Logo" />
+                    <h2 id="mental" class="justify-content-center align-items-center ms-lg-4 ms-sm-0 fw-bold text-start">Mental</h2>
+                    <h2 id="friends" class="fw-bold ">Friends</h2>
+                </div>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
@@ -47,16 +51,18 @@
                 <div class=" rounded-3 py-5 px-4 px-md-5 mb-5 ">
                     <div id="contacthead" class="text-center mb-5 d-flex flex-column w-100 animate__animated animate__fadeInDownBig">
                         <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-envelope"></i></div>
-                        <h1  class="fw-bolder text-decoration-underline">Get in touch</h1>
+                        <h1 class="fw-bolder text-decoration-underline">Get in touch</h1>
                         <p class="lead fw-normal text-dark mb-0">We'd love to hear from you</p>
                     </div>
                     <div class="row gx-5 justify-content-center">
                         <div class="col-lg-8 col-xl-6 animate__animated animate__fadeInUpBig">
                             <div data-paperform-id="8oymzmx2"></div>
-                            <script class = "form">
-                                (function() { var script = document.createElement('script');
+                            <script class="form">
+                                (function() {
+                                    var script = document.createElement('script');
                                     script.src = "https://paperform.co/__embed.min.js";
-                                    document.body.appendChild(script); })()
+                                    document.body.appendChild(script);
+                                })()
                             </script>
                         </div>
                     </div>

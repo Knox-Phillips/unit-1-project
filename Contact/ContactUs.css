@@ -24,6 +24,14 @@ footer {
 	z-index: 10;
 
 }
+#mental {
+	font-size:3em;
+}
+#friends {
+	color:#00aeef;
+	font-size:3em;
+}
+
 #contacthead h1{
 		font-size:6em;
 }
@@ -35,7 +43,7 @@ navbar a:hover {
 	padding-bottom: 0
 }
 navbar img {
-	transform: scale(2.0)
+	transform: scale(1.2)
 }
 #Contacts {
 		font-size: 1em;
