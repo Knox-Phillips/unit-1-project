@@ -1,8 +1,9 @@
 
 
 * {
-	font-family: "Playfair Display";
+	font-family: "Playfair Display"!important;
 	text-shadow: 0 0 1px transparent;;
+	color:white!important;
 }
 h1{
     text-align: center !important;
@@ -34,9 +35,10 @@ nav img {
 }
 #mental {
 	font-size:3em;
+	
 }
 #friends {
-	color:#00aeef;
+	color:#00aeef!important;
 	font-size:3em;
 }
 

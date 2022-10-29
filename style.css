@@ -12,6 +12,7 @@ h4,
 h5 {
 	font-family: "Playfair Display" !important;
 	text-shadow: 0 0 1px transparent !important;
+	color:#FAF0E6;
 }
 
 
@@ -51,6 +52,9 @@ header h1 {
 body {
 	background-image: linear-gradient(lightblue, blue);
 }
+nav a {
+	color:white!important;
+}
 
 nav a:hover {
 	border-bottom: 2px solid white;
@@ -85,9 +89,10 @@ iframe {
 }
 
 #card {
-	transition: all 0.5s ease;
+	color:black!important;
 
 }
+
 
 #infoHead {
 	background-image: linear-gradient(rgba(140, 198, 251, 1), rgba(32, 70, 137, 1));
@@ -109,13 +114,26 @@ iframe {
 
 }
 
-#card:hover .card-footer {
-	background-color: lightblue;
+.card-footer:hover {
+	border-top: 0 solid black!important;
+
+}
+#mind {
+	width:10em;
+	height:5em;
+}
+#card .card-footer {
+		background-image: linear-gradient(rgba(140, 198, 251, 1) ,rgba(32, 70, 137, 1) );
 	-webkit-transition: background-color 1s ease-out;
+	border-top:0!important;
 }
 
-#card:hover .card-body {
-	background-color: lightblue;
+#nyu {
+	padding-top:1em;
+}
+
+#card .card-body {
+	background-image: linear-gradient(rgba(32, 70, 137, 1), rgba(140, 198, 251, 1) );
 	-webkit-transition: background-color 1s ease-out;
 }
 
@@ -126,7 +144,7 @@ iframe {
 #Features {
 	animation: features 0.5s ease-out 0s 1 normal forwards;
 	background-image: linear-gradient(rgba(140, 198, 251, 0.8), rgba(32, 70, 137, 0.8));
-	color: black;
+	color: #FAF0E6;
 	height: 100%;
 	border-radius: 20px;
 	transform: scale(1.3);

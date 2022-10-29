@@ -1,6 +1,7 @@
 * {
-	font-family: "Playfair Display";
+	font-family: "Playfair Display" !important;
 	text-shadow: 0 0 1px transparent;
+	color:white!important;
 }
 body {
 	background-color: purple;
@@ -28,7 +29,7 @@ footer {
 	font-size:3em;
 }
 #friends {
-	color:#00aeef;
+	color:#00aeef!important;
 	font-size:3em;
 }
 

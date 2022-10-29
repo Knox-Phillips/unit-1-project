@@ -1,11 +1,4 @@
-* p,
-h1,
-h2,
-h3,
-h4,
-h5 {
-    color: black !important;
-}
+
 html, body {
     min-height: 100%;
 }
@@ -18,8 +11,9 @@ nav {
 }
 
 * {
-    font-family: "Playfair Display";
+    font-family: "Playfair Display" !important;
     text-shadow: 0 0 1px transparent;
+    color:white!important;
 }
 nav a:hover {
 	border-bottom: 2px solid white;
