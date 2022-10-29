@@ -12,11 +12,14 @@
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=" Playfair Display"">
+  <script type="text/javascript" src="home.js"></script>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 </head>
 
 <body class="d-flex flex-column h-100">
   <main class="flex-shrink-0">
+    
+    
     <!-- Navigation-->
 
     <video autoplay muted loop id="myVideo">
@@ -32,7 +35,7 @@
         <button class="navbar-toggler active" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
         <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
-            <li class="nav-item"><a class="nav-link me-4 fs-4 " href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link mx-4 fs-4 " href="index.html">Home</a></li>
             <li class="nav-item"><a class="nav-link mx-4 fs-4 " href="About/Aboutus.html">About</a></li>
             <li class="nav-item"><a class="nav-link mx-4 fs-4 " href="Contact/ContactUs.html">Contact</a></li>
             <li class="nav-item"><a class="nav-link ms-4 fs-4 " href="Donations/Donations.html">Donations</a></li>
@@ -43,7 +46,7 @@
       </div>
     </nav>
     <!-- Header-->
-    <header class="py-5 d-flex text">
+    <header class="py-5 d-flex text" id="top">
       <div class="container-fluid px-5 justify-content-center">
         <div class="row w-100 align-items-center justify-content-center me-0 ms-0">
           <div class="col-lg-11 col-xl-7 col-xxl-6 justify-content-center">
@@ -235,8 +238,9 @@
         </div>
       </div>
     </section>
-
+  <button type="button" id="myBtn" class="btn btn-primary p-0"><a href="#top"><img src="Top.png" alt="" /></a></button>
   </main>
+
   <!-- Footer-->
   <footer class="bg-dark py-4 mt-auto position-relative">
     <div class="container px-5">
@@ -254,6 +258,27 @@
       </div>
     </div>
   </footer>
+  <script>
+// Get the button
+let mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 4000 || document.documentElement.scrollTop > 4000) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
 </body>
 
 </html>
