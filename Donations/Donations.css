@@ -13,7 +13,7 @@ nav {
 * {
     font-family: "Playfair Display" !important;
     text-shadow: 0 0 1px transparent;
-    color:white!important;
+    color:#FAF0E6!important;
 }
 nav a:hover {
 	border-bottom: 2px solid white;
@@ -43,7 +43,7 @@ body {
 }
 
 #rectangle {
-    background-color: lightblue;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.74), rgba(140, 198, 251, 1));
 
 }
 

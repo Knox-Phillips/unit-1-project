@@ -3,7 +3,7 @@
 * {
 	font-family: "Playfair Display"!important;
 	text-shadow: 0 0 1px transparent;;
-	color:white!important;
+		color:#FAF0E6!important;
 }
 h1{
     text-align: center !important;
@@ -68,10 +68,10 @@ figcaption{
 }
 .bottompics{
     display:flex;
-    justify-content:space-around;
-    width:100%;
+    justify-content:space-between;
+    width:90%;
     height:45%;
-    margin-top:7em;
+    margin-top:2em;
 }
 .humanpic{
     display:flex;
@@ -82,7 +82,7 @@ figcaption{
     margin:auto;
 }
 .column1{
-    width:33%;
+    width:25%;
     text-decoration: none;
     color:black
 }
@@ -90,16 +90,18 @@ figcaption{
     transform: scale(1.1);
 }
 .column2{
-    width:33%;
+    width:25%;
 }
 .column2:hover{
     transform: scale(1.1);
 }
 .column3{
-    width:33%;
+    width:25%;
+    overflow: hidden
 }
 .column3:hover{
     transform: scale(1.1);
+    
 }
 #CKP{
     text-align: center;
@@ -244,13 +246,13 @@ nav a:hover {
 	padding-bottom: 0
 }
 #para {
-    width: 86%;
-    margin: 0 auto;
+    width: 75%;
+    margin: 2em auto;
 }
 
 .about-text {
 	width:fit-content;
-	border-bottom:3px solid rgba(0, 0, 0, 0.6);
+	padding:5em;
 }
 @media screen and (max-width:800px) {
 
