@@ -107,6 +107,7 @@ figcaption{
 }
 .column2{
     width:25%;
+    min-height: 100%
 }
 .column2:hover{
     transform: scale(1.1);
